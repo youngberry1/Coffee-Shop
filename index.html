@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="svg/xml" href="./SVGs/reshot-icon-coffee-6DPVBC3U9M.svg">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <a href="index.html"><img class="logo" src="./images/coffee-hero-section.png" alt="logo" width="100px"></a>
+        </div>
+        <nav class="nav__links" aria-label="main navigation">
+            <a class="nav__link" href="index.html">Home</a>
+            <a class="nav__link" href="#menu">Menu</a>
+            <a class="nav__link" href="#about">About</a>
+            <a class="nav__link" href="#contact">Contact</a>
+        </nav>
+    </header>
+    <main class="main__content">
+        <div class="hero__section">
+            <h1>Welcome to Coffee Shop</h1>
+            <img src="./SVGs/foodiesfeed.com_latte-art.jpg" alt="latte">
+            <p>Coffee is a brewed drink prepared from roasted coffee beans.</p>
+            <button class="btn">Order Now</button>
+        </div>
+
+        <section class="menu__section grid-container">
+            <h2 id="menu">Menu</h2>
+            <div class="menu__items">
+                <div class="menu__item">
+                    <img src="./images/cold-beverages.png" alt="latte" loading="lazy">
+                    <p class="menu__item__name">Coffee Type 1</p>
+                    <p class="menu__item__price">$5</p>
+                </div>
+                <div class="menu__item">
+                    <img src="./images/desserts.png" alt="latte" loading="lazy">
+                    <p class="menu__item__name">Coffee Type 2</p>
+                    <p class="menu__item__price">$5</p>
+                </div>
+                <div class="menu__item">
+                    <img src="./images/gallery-6.jpg" alt="latte" loading="lazy">
+                    <p class="menu__item__name">Coffee Type 3</p>
+                    <p class="menu__item__price">$5</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section__about">
+            <h2 id="about">About Us</h2>
+            <p class="about__text">At Coffee Shop, we are passionate about crafting the perfect cup for every guest. Our
+                beans are ethically sourced and freshly roasted to ensure rich flavor in every sip.</p>
+            <p class="about__text">Whether you're looking for a cozy spot to relax or a quick pick-me-up, our friendly
+                team is here to make your coffee experience memorable.</p>
+        </section>
+
+        <section class="testimonials__section">
+            <h2>Testimonials</h2>
+            <div class="testimonials">
+                <div class="testimonial">
+                    <img src="./images/user-1.jpg" alt="logo" loading="lazy">
+                    <p class="testimonial__text">"Absolutely love this place! The staff is always friendly and the
+                        coffee never disappoints."</p>
+                    <p class="testimonial__author">Sarah Lee</p>
+                </div>
+                <div class="testimonial">
+                    <img src="/images/user-3.jpg" alt="logo" loading="lazy">
+                    <p class="testimonial__text">"A cozy atmosphere and delicious pastries make this my go-to spot for
+                        morning meetings."</p>
+                    <p class="testimonial__author">Michael Chen</p>
+                </div>
+                <div class="testimonial">
+                    <img src="/images/user-4.jpg" alt="logo" loading="lazy">
+                    <p class="testimonial__text">"Their specialty lattes are a must-try. I always leave with a smile on
+                        my face!"</p>
+                    <p class="testimonial__author">Priya Patel</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact__section">
+            <h2 id="contact">Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+
+    <address class="address">
+        <h2>Address</h2>
+        <p>123 Main Street</p>
+        <p>City, State, ZIP</p>
+    </address>
+
+    <footer class="footer">
+        <p>&copy; 2023 Coffee Shop. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
