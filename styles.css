@@ -244,6 +244,50 @@ footer {
       grid-template-rows: auto;
       gap: 1rem;
    }
+
+   .contact__section input[type='submit'] {
+      transition: transform 0.3s ease-in-out;
+   }
+
+   .contact__section input[type='submit']:hover {
+      transform: scale(1.1);
+   }
+
+   .menu__item {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+   }
+
+   .menu__item:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+   }
+
+   .nav__link {
+      position: relative;
+      transition: color 0.3s ease, top 0.3s ease;
+      top: 0;
+   }
+
+   .nav__link:hover {
+      color: #ffcc00;
+      top: -3px;
+   }
+
+   .hero__section img {
+      transition: opacity 0.3s ease-in-out;
+   }
+
+   .hero__section img:hover {
+      opacity: 0.7;
+   }
+
+   .testimonial__text {
+      transition: text-shadow 0.3s ease-in-out;
+   }
+
+   .testimonial__text:hover {
+      text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.7);
+   }
 }
 
 @media screen and (min-width: 900px) {
